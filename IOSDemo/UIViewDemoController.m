@@ -70,7 +70,7 @@ UISlider *mySlider;
 }
 -(void)switched:(id)sender
 {
-    NSLog(@"Z值改变了");
+    NSLog(@"值改变了");
 }
 
 -(void)alertView

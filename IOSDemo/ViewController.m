@@ -36,6 +36,18 @@
     [button2 setTitle:@"传值" forState:UIControlStateNormal];
     [button2 addTarget:self action:@selector(btnClick2) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];
+    
+    UIButton *button3 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button3.frame = CGRectMake(10, 230, 300, 40);
+    [button3 setTitle:@"ScrollView" forState:UIControlStateNormal];
+    [button3 addTarget:self action:@selector(btnClick3) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button3];
+    
+    UIButton *button4 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button4.frame = CGRectMake(10, 280, 300, 40);
+    [button4 setTitle:@"列表" forState:UIControlStateNormal];
+    [button4 addTarget:self action:@selector(btnClick4) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button4];
 }
 
 
@@ -56,7 +68,16 @@
     dc.delegate = self;
     [self.navigationController pushViewController:dc animated:YES];
 }
-
+-(void)btnClick3
+{
+    ScrollerViewController *dc = [[ScrollerViewController alloc]init];
+    [self.navigationController pushViewController:dc animated:YES];
+}
+-(void)btnClick4
+{
+    MyTableViewController *dc = [[MyTableViewController alloc]init];
+    [self.navigationController pushViewController:dc animated:YES];
+}
 -(void)sendBackValue:(NSString *)backValue
 {
     NSLog(@"%@",backValue);
