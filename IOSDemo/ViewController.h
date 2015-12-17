@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewDemoController.h"
+#import "NavViewController.h"
+#import "TransValueViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SendValue>//遵循传值协议
 
 
 @end

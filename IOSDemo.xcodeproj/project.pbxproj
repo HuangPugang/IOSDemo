@@ -14,6 +14,12 @@
 		DA8499631C225138009B2D94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8499621C225138009B2D94 /* Images.xcassets */; };
 		DA8499661C225138009B2D94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8499641C225138009B2D94 /* LaunchScreen.xib */; };
 		DA8499721C225138009B2D94 /* IOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499711C225138009B2D94 /* IOSDemoTests.m */; };
+		DA84997D1C225202009B2D94 /* UIViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84997C1C225202009B2D94 /* UIViewDemoController.m */; };
+		DA8499861C225998009B2D94 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499851C225998009B2D94 /* NavViewController.m */; };
+		DA8499891C2259FE009B2D94 /* Nav2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499881C2259FE009B2D94 /* Nav2ViewController.m */; };
+		DA84998B1C225AD4009B2D94 /* toolbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84998A1C225AD4009B2D94 /* toolbg.png */; };
+		DA84998D1C225B13009B2D94 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84998C1C225B13009B2D94 /* close.png */; };
+		DA8499901C225D49009B2D94 /* TransValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84998F1C225D49009B2D94 /* TransValueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,16 @@
 		DA84996B1C225138009B2D94 /* IOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8499701C225138009B2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8499711C225138009B2D94 /* IOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDemoTests.m; sourceTree = "<group>"; };
+		DA84997B1C225202009B2D94 /* UIViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDemoController.h; sourceTree = "<group>"; };
+		DA84997C1C225202009B2D94 /* UIViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewDemoController.m; sourceTree = "<group>"; };
+		DA8499841C225998009B2D94 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		DA8499851C225998009B2D94 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		DA8499871C2259FE009B2D94 /* Nav2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav2ViewController.h; sourceTree = "<group>"; };
+		DA8499881C2259FE009B2D94 /* Nav2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav2ViewController.m; sourceTree = "<group>"; };
+		DA84998A1C225AD4009B2D94 /* toolbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbg.png; sourceTree = "<group>"; };
+		DA84998C1C225B13009B2D94 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		DA84998E1C225D49009B2D94 /* TransValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransValueViewController.h; sourceTree = "<group>"; };
+		DA84998F1C225D49009B2D94 /* TransValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransValueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,14 @@
 				DA8499621C225138009B2D94 /* Images.xcassets */,
 				DA8499641C225138009B2D94 /* LaunchScreen.xib */,
 				DA8499551C225138009B2D94 /* Supporting Files */,
+				DA84997B1C225202009B2D94 /* UIViewDemoController.h */,
+				DA84997C1C225202009B2D94 /* UIViewDemoController.m */,
+				DA8499841C225998009B2D94 /* NavViewController.h */,
+				DA8499851C225998009B2D94 /* NavViewController.m */,
+				DA8499871C2259FE009B2D94 /* Nav2ViewController.h */,
+				DA8499881C2259FE009B2D94 /* Nav2ViewController.m */,
+				DA84998E1C225D49009B2D94 /* TransValueViewController.h */,
+				DA84998F1C225D49009B2D94 /* TransValueViewController.m */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -96,6 +120,8 @@
 		DA8499551C225138009B2D94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA84998C1C225B13009B2D94 /* close.png */,
+				DA84998A1C225AD4009B2D94 /* toolbg.png */,
 				DA8499561C225138009B2D94 /* Info.plist */,
 				DA8499571C225138009B2D94 /* main.m */,
 			);
@@ -199,7 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA84998B1C225AD4009B2D94 /* toolbg.png in Resources */,
 				DA8499611C225138009B2D94 /* Main.storyboard in Resources */,
+				DA84998D1C225B13009B2D94 /* close.png in Resources */,
 				DA8499661C225138009B2D94 /* LaunchScreen.xib in Resources */,
 				DA8499631C225138009B2D94 /* Images.xcassets in Resources */,
 			);
@@ -221,7 +249,11 @@
 			files = (
 				DA84995E1C225138009B2D94 /* ViewController.m in Sources */,
 				DA84995B1C225138009B2D94 /* AppDelegate.m in Sources */,
+				DA8499901C225D49009B2D94 /* TransValueViewController.m in Sources */,
 				DA8499581C225138009B2D94 /* main.m in Sources */,
+				DA8499891C2259FE009B2D94 /* Nav2ViewController.m in Sources */,
+				DA84997D1C225202009B2D94 /* UIViewDemoController.m in Sources */,
+				DA8499861C225998009B2D94 /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
