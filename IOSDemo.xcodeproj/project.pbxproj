@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA3BD9B11C22A98E008233F5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3BD9B01C22A98E008233F5 /* MyTableViewController.m */; };
 		DA8499581C225138009B2D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499571C225138009B2D94 /* main.m */; };
 		DA84995B1C225138009B2D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995A1C225138009B2D94 /* AppDelegate.m */; };
 		DA84995E1C225138009B2D94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995D1C225138009B2D94 /* ViewController.m */; };
@@ -35,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA3BD9AF1C22A98E008233F5 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
-		DA3BD9B01C22A98E008233F5 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		DA8499521C225138009B2D94 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8499561C225138009B2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8499571C225138009B2D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,8 +118,6 @@
 				DA84998F1C225D49009B2D94 /* TransValueViewController.m */,
 				DA8499911C229C39009B2D94 /* ScrollerViewController.h */,
 				DA8499921C229C39009B2D94 /* ScrollerViewController.m */,
-				DA3BD9AF1C22A98E008233F5 /* MyTableViewController.h */,
-				DA3BD9B01C22A98E008233F5 /* MyTableViewController.m */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -258,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8499931C229C39009B2D94 /* ScrollerViewController.m in Sources */,
-				DA3BD9B11C22A98E008233F5 /* MyTableViewController.m in Sources */,
 				DA84995E1C225138009B2D94 /* ViewController.m in Sources */,
 				DA84995B1C225138009B2D94 /* AppDelegate.m in Sources */,
 				DA8499901C225D49009B2D94 /* TransValueViewController.m in Sources */,

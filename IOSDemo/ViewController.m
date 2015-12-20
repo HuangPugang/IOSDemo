@@ -75,8 +75,8 @@
 }
 -(void)btnClick4
 {
-    MyTableViewController *dc = [[MyTableViewController alloc]init];
-    [self.navigationController pushViewController:dc animated:YES];
+//    MyTableViewController *dc = [[MyTableViewController alloc]init];
+//    [self.navigationController pushViewController:dc animated:YES];
 }
 -(void)sendBackValue:(NSString *)backValue
 {
