@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ScrollerViewController : UIViewController<UIScrollViewDelegate>
-
+{
+    UIScrollView *myScrollView;
+}
 @end

@@ -24,6 +24,12 @@
 		DA11CCC21C26D03A00857028 /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB51C26D03A00857028 /* news.plist */; };
 		DA11CCC51C26D08900857028 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCC41C26D08900857028 /* NewsCell.m */; };
 		DA11CCC81C26D0B200857028 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCC71C26D0B200857028 /* News.m */; };
+		DA11CCCA1C26D96800857028 /* scroll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCC91C26D96800857028 /* scroll.jpg */; };
+		DA11CCCC1C26D9C200857028 /* scroll2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCCB1C26D9C200857028 /* scroll2.jpg */; };
+		DA11CCD31C26DB1300857028 /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCD11C26DB1300857028 /* DBViewController.m */; };
+		DA11CCD41C26DB1300857028 /* DBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCD21C26DB1300857028 /* DBViewController.xib */; };
+		DA11CCD71C26E1DC00857028 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCD61C26E1DC00857028 /* DBManager.m */; };
+		DA11CCD91C26E30600857028 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA11CCD81C26E30600857028 /* libsqlite3.dylib */; };
 		DA8499581C225138009B2D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499571C225138009B2D94 /* main.m */; };
 		DA84995B1C225138009B2D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995A1C225138009B2D94 /* AppDelegate.m */; };
 		DA84995E1C225138009B2D94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995D1C225138009B2D94 /* ViewController.m */; };
@@ -71,6 +77,14 @@
 		DA11CCC41C26D08900857028 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = ../NewsCell.m; sourceTree = "<group>"; };
 		DA11CCC61C26D0B200857028 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		DA11CCC71C26D0B200857028 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		DA11CCC91C26D96800857028 /* scroll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scroll.jpg; sourceTree = "<group>"; };
+		DA11CCCB1C26D9C200857028 /* scroll2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scroll2.jpg; sourceTree = "<group>"; };
+		DA11CCD01C26DB1300857028 /* DBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBViewController.h; path = ../DBViewController.h; sourceTree = "<group>"; };
+		DA11CCD11C26DB1300857028 /* DBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBViewController.m; path = ../DBViewController.m; sourceTree = "<group>"; };
+		DA11CCD21C26DB1300857028 /* DBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DBViewController.xib; path = ../DBViewController.xib; sourceTree = "<group>"; };
+		DA11CCD51C26E1DC00857028 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		DA11CCD61C26E1DC00857028 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		DA11CCD81C26E30600857028 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		DA8499521C225138009B2D94 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8499561C225138009B2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8499571C225138009B2D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA11CCD91C26E30600857028 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 		DA8499491C225138009B2D94 = {
 			isa = PBXGroup;
 			children = (
+				DA11CCD81C26E30600857028 /* libsqlite3.dylib */,
 				DA8499541C225138009B2D94 /* IOSDemo */,
 				DA84996E1C225138009B2D94 /* IOSDemoTests */,
 				DA8499531C225138009B2D94 /* Products */,
@@ -177,11 +193,16 @@
 				DA8499921C229C39009B2D94 /* ScrollerViewController.m */,
 				DA11CCA31C26CFBC00857028 /* MyTableViewController.h */,
 				DA11CCA41C26CFBC00857028 /* MyTableViewController.m */,
+				DA11CCA51C26CFBC00857028 /* MyTableViewController.xib */,
 				DA11CCC31C26D08900857028 /* NewsCell.h */,
 				DA11CCC41C26D08900857028 /* NewsCell.m */,
-				DA11CCA51C26CFBC00857028 /* MyTableViewController.xib */,
 				DA11CCC61C26D0B200857028 /* News.h */,
 				DA11CCC71C26D0B200857028 /* News.m */,
+				DA11CCD01C26DB1300857028 /* DBViewController.h */,
+				DA11CCD11C26DB1300857028 /* DBViewController.m */,
+				DA11CCD51C26E1DC00857028 /* DBManager.h */,
+				DA11CCD61C26E1DC00857028 /* DBManager.m */,
+				DA11CCD21C26DB1300857028 /* DBViewController.xib */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -189,8 +210,10 @@
 		DA8499551C225138009B2D94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA11CCCB1C26D9C200857028 /* scroll2.jpg */,
 				DA11CCA81C26D02800857028 /* news */,
 				DA84998C1C225B13009B2D94 /* close.png */,
+				DA11CCC91C26D96800857028 /* scroll.jpg */,
 				DA84998A1C225AD4009B2D94 /* toolbg.png */,
 				DA8499561C225138009B2D94 /* Info.plist */,
 				DA8499571C225138009B2D94 /* main.m */,
@@ -304,6 +327,7 @@
 				DA11CCB81C26D03A00857028 /* news_02.jpg in Resources */,
 				DA8499661C225138009B2D94 /* LaunchScreen.xib in Resources */,
 				DA11CCC21C26D03A00857028 /* news.plist in Resources */,
+				DA11CCCC1C26D9C200857028 /* scroll2.jpg in Resources */,
 				DA11CCBB1C26D03A00857028 /* news_05.jpg in Resources */,
 				DA8499631C225138009B2D94 /* Images.xcassets in Resources */,
 				DA11CCC11C26D03A00857028 /* news_11.jpg in Resources */,
@@ -311,6 +335,8 @@
 				DA11CCB71C26D03A00857028 /* news_01.jpg in Resources */,
 				DA11CCBC1C26D03A00857028 /* news_06.jpg in Resources */,
 				DA11CCB91C26D03A00857028 /* news_03.jpg in Resources */,
+				DA11CCCA1C26D96800857028 /* scroll.jpg in Resources */,
+				DA11CCD41C26DB1300857028 /* DBViewController.xib in Resources */,
 				DA11CCBD1C26D03A00857028 /* news_07.jpg in Resources */,
 				DA11CCBF1C26D03A00857028 /* news_09.jpg in Resources */,
 				DA11CCC01C26D03A00857028 /* news_10.jpg in Resources */,
@@ -341,7 +367,9 @@
 				DA84997D1C225202009B2D94 /* UIViewDemoController.m in Sources */,
 				DA11CCC51C26D08900857028 /* NewsCell.m in Sources */,
 				DA11CCC81C26D0B200857028 /* News.m in Sources */,
+				DA11CCD31C26DB1300857028 /* DBViewController.m in Sources */,
 				DA8499861C225998009B2D94 /* NavViewController.m in Sources */,
+				DA11CCD71C26E1DC00857028 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

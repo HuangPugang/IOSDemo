@@ -48,6 +48,12 @@
     [button4 setTitle:@"列表" forState:UIControlStateNormal];
     [button4 addTarget:self action:@selector(btnClick4) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button4];
+    
+    UIButton *button5 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button5.frame = CGRectMake(10, 330, 300, 40);
+    [button5 setTitle:@"数据库" forState:UIControlStateNormal];
+    [button5 addTarget:self action:@selector(btnClick5) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button5];
 }
 
 
@@ -78,6 +84,13 @@
     MyTableViewController *dc = [[MyTableViewController alloc]init];
     [self.navigationController pushViewController:dc animated:YES];
 }
+-(void)btnClick5
+{
+    DBViewController *dc = [[DBViewController alloc]init];
+    [self.navigationController pushViewController:dc animated:YES];
+}
+
+//值回传
 -(void)sendBackValue:(NSString *)backValue
 {
     NSLog(@"%@",backValue);
