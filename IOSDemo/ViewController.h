@@ -11,6 +11,7 @@
 #import "NavViewController.h"
 #import "TransValueViewController.h"
 #import "ScrollerViewController.h"
+#import "MyTableViewController.h"
 @interface ViewController : UIViewController <SendValue>//遵循传值协议
 
 

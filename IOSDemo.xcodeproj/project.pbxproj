@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA11CCA61C26CFBC00857028 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCA41C26CFBC00857028 /* MyTableViewController.m */; };
+		DA11CCA71C26CFBC00857028 /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCA51C26CFBC00857028 /* MyTableViewController.xib */; };
+		DA11CCB61C26D03A00857028 /* news_00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCA91C26D03A00857028 /* news_00.jpg */; };
+		DA11CCB71C26D03A00857028 /* news_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAA1C26D03A00857028 /* news_01.jpg */; };
+		DA11CCB81C26D03A00857028 /* news_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAB1C26D03A00857028 /* news_02.jpg */; };
+		DA11CCB91C26D03A00857028 /* news_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAC1C26D03A00857028 /* news_03.jpg */; };
+		DA11CCBA1C26D03A00857028 /* news_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAD1C26D03A00857028 /* news_04.jpg */; };
+		DA11CCBB1C26D03A00857028 /* news_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAE1C26D03A00857028 /* news_05.jpg */; };
+		DA11CCBC1C26D03A00857028 /* news_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCAF1C26D03A00857028 /* news_06.jpg */; };
+		DA11CCBD1C26D03A00857028 /* news_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB01C26D03A00857028 /* news_07.jpg */; };
+		DA11CCBE1C26D03A00857028 /* news_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB11C26D03A00857028 /* news_08.jpg */; };
+		DA11CCBF1C26D03A00857028 /* news_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB21C26D03A00857028 /* news_09.jpg */; };
+		DA11CCC01C26D03A00857028 /* news_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB31C26D03A00857028 /* news_10.jpg */; };
+		DA11CCC11C26D03A00857028 /* news_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB41C26D03A00857028 /* news_11.jpg */; };
+		DA11CCC21C26D03A00857028 /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA11CCB51C26D03A00857028 /* news.plist */; };
+		DA11CCC51C26D08900857028 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCC41C26D08900857028 /* NewsCell.m */; };
+		DA11CCC81C26D0B200857028 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CCC71C26D0B200857028 /* News.m */; };
 		DA8499581C225138009B2D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499571C225138009B2D94 /* main.m */; };
 		DA84995B1C225138009B2D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995A1C225138009B2D94 /* AppDelegate.m */; };
 		DA84995E1C225138009B2D94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84995D1C225138009B2D94 /* ViewController.m */; };
@@ -34,6 +51,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA11CCA31C26CFBC00857028 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		DA11CCA41C26CFBC00857028 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		DA11CCA51C26CFBC00857028 /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		DA11CCA91C26D03A00857028 /* news_00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_00.jpg; sourceTree = "<group>"; };
+		DA11CCAA1C26D03A00857028 /* news_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_01.jpg; sourceTree = "<group>"; };
+		DA11CCAB1C26D03A00857028 /* news_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_02.jpg; sourceTree = "<group>"; };
+		DA11CCAC1C26D03A00857028 /* news_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_03.jpg; sourceTree = "<group>"; };
+		DA11CCAD1C26D03A00857028 /* news_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_04.jpg; sourceTree = "<group>"; };
+		DA11CCAE1C26D03A00857028 /* news_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_05.jpg; sourceTree = "<group>"; };
+		DA11CCAF1C26D03A00857028 /* news_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_06.jpg; sourceTree = "<group>"; };
+		DA11CCB01C26D03A00857028 /* news_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_07.jpg; sourceTree = "<group>"; };
+		DA11CCB11C26D03A00857028 /* news_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_08.jpg; sourceTree = "<group>"; };
+		DA11CCB21C26D03A00857028 /* news_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_09.jpg; sourceTree = "<group>"; };
+		DA11CCB31C26D03A00857028 /* news_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_10.jpg; sourceTree = "<group>"; };
+		DA11CCB41C26D03A00857028 /* news_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_11.jpg; sourceTree = "<group>"; };
+		DA11CCB51C26D03A00857028 /* news.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = news.plist; sourceTree = "<group>"; };
+		DA11CCC31C26D08900857028 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = ../NewsCell.h; sourceTree = "<group>"; };
+		DA11CCC41C26D08900857028 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = ../NewsCell.m; sourceTree = "<group>"; };
+		DA11CCC61C26D0B200857028 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DA11CCC71C26D0B200857028 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		DA8499521C225138009B2D94 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8499561C225138009B2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8499571C225138009B2D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +116,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA11CCA81C26D02800857028 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				DA11CCA91C26D03A00857028 /* news_00.jpg */,
+				DA11CCAA1C26D03A00857028 /* news_01.jpg */,
+				DA11CCAB1C26D03A00857028 /* news_02.jpg */,
+				DA11CCAC1C26D03A00857028 /* news_03.jpg */,
+				DA11CCAD1C26D03A00857028 /* news_04.jpg */,
+				DA11CCAE1C26D03A00857028 /* news_05.jpg */,
+				DA11CCAF1C26D03A00857028 /* news_06.jpg */,
+				DA11CCB01C26D03A00857028 /* news_07.jpg */,
+				DA11CCB11C26D03A00857028 /* news_08.jpg */,
+				DA11CCB21C26D03A00857028 /* news_09.jpg */,
+				DA11CCB31C26D03A00857028 /* news_10.jpg */,
+				DA11CCB41C26D03A00857028 /* news_11.jpg */,
+				DA11CCB51C26D03A00857028 /* news.plist */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
 		DA8499491C225138009B2D94 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +175,13 @@
 				DA84998F1C225D49009B2D94 /* TransValueViewController.m */,
 				DA8499911C229C39009B2D94 /* ScrollerViewController.h */,
 				DA8499921C229C39009B2D94 /* ScrollerViewController.m */,
+				DA11CCA31C26CFBC00857028 /* MyTableViewController.h */,
+				DA11CCA41C26CFBC00857028 /* MyTableViewController.m */,
+				DA11CCC31C26D08900857028 /* NewsCell.h */,
+				DA11CCC41C26D08900857028 /* NewsCell.m */,
+				DA11CCA51C26CFBC00857028 /* MyTableViewController.xib */,
+				DA11CCC61C26D0B200857028 /* News.h */,
+				DA11CCC71C26D0B200857028 /* News.m */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -125,6 +189,7 @@
 		DA8499551C225138009B2D94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA11CCA81C26D02800857028 /* news */,
 				DA84998C1C225B13009B2D94 /* close.png */,
 				DA84998A1C225AD4009B2D94 /* toolbg.png */,
 				DA8499561C225138009B2D94 /* Info.plist */,
@@ -231,10 +296,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA84998B1C225AD4009B2D94 /* toolbg.png in Resources */,
+				DA11CCA71C26CFBC00857028 /* MyTableViewController.xib in Resources */,
 				DA8499611C225138009B2D94 /* Main.storyboard in Resources */,
 				DA84998D1C225B13009B2D94 /* close.png in Resources */,
+				DA11CCBE1C26D03A00857028 /* news_08.jpg in Resources */,
+				DA11CCBA1C26D03A00857028 /* news_04.jpg in Resources */,
+				DA11CCB81C26D03A00857028 /* news_02.jpg in Resources */,
 				DA8499661C225138009B2D94 /* LaunchScreen.xib in Resources */,
+				DA11CCC21C26D03A00857028 /* news.plist in Resources */,
+				DA11CCBB1C26D03A00857028 /* news_05.jpg in Resources */,
 				DA8499631C225138009B2D94 /* Images.xcassets in Resources */,
+				DA11CCC11C26D03A00857028 /* news_11.jpg in Resources */,
+				DA11CCB61C26D03A00857028 /* news_00.jpg in Resources */,
+				DA11CCB71C26D03A00857028 /* news_01.jpg in Resources */,
+				DA11CCBC1C26D03A00857028 /* news_06.jpg in Resources */,
+				DA11CCB91C26D03A00857028 /* news_03.jpg in Resources */,
+				DA11CCBD1C26D03A00857028 /* news_07.jpg in Resources */,
+				DA11CCBF1C26D03A00857028 /* news_09.jpg in Resources */,
+				DA11CCC01C26D03A00857028 /* news_10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +337,10 @@
 				DA8499901C225D49009B2D94 /* TransValueViewController.m in Sources */,
 				DA8499581C225138009B2D94 /* main.m in Sources */,
 				DA8499891C2259FE009B2D94 /* Nav2ViewController.m in Sources */,
+				DA11CCA61C26CFBC00857028 /* MyTableViewController.m in Sources */,
 				DA84997D1C225202009B2D94 /* UIViewDemoController.m in Sources */,
+				DA11CCC51C26D08900857028 /* NewsCell.m in Sources */,
+				DA11CCC81C26D0B200857028 /* News.m in Sources */,
 				DA8499861C225998009B2D94 /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
