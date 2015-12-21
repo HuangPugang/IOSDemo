@@ -7,7 +7,8 @@
 //
 
 #import "NetworkViewController.h"
-//#import "AFNetworking.h"
+#import "AFNetworking.h"
+#import "JSONKit.h"
 @interface NetworkViewController ()
 
 @end
@@ -24,16 +25,39 @@
 
 -(void)networkRequest{
     
-    //1.创建url
-    NSURL *url = [NSURL URLWithString:@"http://www.tngou.net/api/info/classify"];
+//    //1.创建url
+//    NSURL *url = [NSURL URLWithString:@"http://www.tngou.net/api/info/classify"];
+//    
+//    //2.创建请求对象
+//    
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+//    
+//    //3.创建链接对象,发送请求
+//    
+//    [NSURLConnection connectionWithRequest:request delegate:self];
     
-    //2.创建请求对象
-    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    
-    //3.创建链接对象,发送请求
-    
-    [NSURLConnection connectionWithRequest:request delegate:self];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    [manager GET:@"http://www.tngou.net/api/info/classify" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+        NSLog(@"JSON: %@", responseObject);
+        //已经转为NSMutableDictionary了
+//        NSData *jsonData = [responseObject dataUsingEncoding:NSUTF8StringEncoding];
+//        NSMutableDictionary *resultDict = [str objectFromJSONString];
+        NSLog(@"name is :%@",[responseObject objectForKey:@"tngou"]);
+        NSArray *list = [responseObject objectForKey:@"tngou"];
+        NSLog(@"%ld",[list count]);
+//        NSString *resultStr = @"{\"name\": \"admin\",\"list\": [\"one\",\"two\",\"three\"]}";
+//        NSData* jsonData = [resultStr dataUsingEncoding:NSUTF8StringEncoding];
+//        NSDictionary *resultDict = [jsonData objectFromJSONData];
+//        
+//        NSLog(@"name is :%@",[resultDict objectForKey:@"name"]);
+//        NSArray *list = [resultDict objectForKey:@"list"];
+//        for (NSString *str in list) {
+//            NSLog(@"list res:%@",str);  
+//        }
+        
+    } failure:^(NSURLSessionTask *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
     
 }
 
