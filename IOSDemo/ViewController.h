@@ -13,6 +13,7 @@
 #import "ScrollerViewController.h"
 #import "MyTableViewController.h"
 #import "DBViewController.h"
+#import "NetworkViewController.h"
 @interface ViewController : UIViewController <SendValue>//遵循传值协议
 
 

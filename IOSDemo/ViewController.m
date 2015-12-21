@@ -54,6 +54,13 @@
     [button5 setTitle:@"数据库" forState:UIControlStateNormal];
     [button5 addTarget:self action:@selector(btnClick5) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button5];
+    
+    UIButton *button6 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button6.frame = CGRectMake(10, 380, 300, 40);
+    [button6 setTitle:@"网络" forState:UIControlStateNormal];
+    [button6 addTarget:self action:@selector(btnClick6) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button6];
+
 }
 
 
@@ -89,7 +96,11 @@
     DBViewController *dc = [[DBViewController alloc]init];
     [self.navigationController pushViewController:dc animated:YES];
 }
-
+-(void)btnClick6
+{
+    NetworkViewController *dc = [[NetworkViewController alloc]init];
+    [self.navigationController pushViewController:dc animated:YES];
+}
 //值回传
 -(void)sendBackValue:(NSString *)backValue
 {

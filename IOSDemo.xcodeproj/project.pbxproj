@@ -44,6 +44,8 @@
 		DA84998D1C225B13009B2D94 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84998C1C225B13009B2D94 /* close.png */; };
 		DA8499901C225D49009B2D94 /* TransValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84998F1C225D49009B2D94 /* TransValueViewController.m */; };
 		DA8499931C229C39009B2D94 /* ScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8499921C229C39009B2D94 /* ScrollerViewController.m */; };
+		DADD01C71C27E59800053EDE /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD01C51C27E59800053EDE /* NetworkViewController.m */; };
+		DADD01C81C27E59800053EDE /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADD01C61C27E59800053EDE /* NetworkViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,9 @@
 		DA84998F1C225D49009B2D94 /* TransValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransValueViewController.m; sourceTree = "<group>"; };
 		DA8499911C229C39009B2D94 /* ScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollerViewController.h; sourceTree = "<group>"; };
 		DA8499921C229C39009B2D94 /* ScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewController.m; sourceTree = "<group>"; };
+		DADD01C41C27E59800053EDE /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		DADD01C51C27E59800053EDE /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		DADD01C61C27E59800053EDE /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +208,9 @@
 				DA11CCD51C26E1DC00857028 /* DBManager.h */,
 				DA11CCD61C26E1DC00857028 /* DBManager.m */,
 				DA11CCD21C26DB1300857028 /* DBViewController.xib */,
+				DADD01C41C27E59800053EDE /* NetworkViewController.h */,
+				DADD01C51C27E59800053EDE /* NetworkViewController.m */,
+				DADD01C61C27E59800053EDE /* NetworkViewController.xib */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -318,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADD01C81C27E59800053EDE /* NetworkViewController.xib in Resources */,
 				DA84998B1C225AD4009B2D94 /* toolbg.png in Resources */,
 				DA11CCA71C26CFBC00857028 /* MyTableViewController.xib in Resources */,
 				DA8499611C225138009B2D94 /* Main.storyboard in Resources */,
@@ -366,6 +375,7 @@
 				DA11CCA61C26CFBC00857028 /* MyTableViewController.m in Sources */,
 				DA84997D1C225202009B2D94 /* UIViewDemoController.m in Sources */,
 				DA11CCC51C26D08900857028 /* NewsCell.m in Sources */,
+				DADD01C71C27E59800053EDE /* NetworkViewController.m in Sources */,
 				DA11CCC81C26D0B200857028 /* News.m in Sources */,
 				DA11CCD31C26DB1300857028 /* DBViewController.m in Sources */,
 				DA8499861C225998009B2D94 /* NavViewController.m in Sources */,
